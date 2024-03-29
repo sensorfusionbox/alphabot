@@ -1,0 +1,9 @@
+/home/kiriks/code/alphabot/build/alphabot_bringup/CMakeFiles/uninstall.dir
+/home/kiriks/code/alphabot/build/alphabot_bringup/CMakeFiles/alphabot_bringup_uninstall.dir
+/home/kiriks/code/alphabot/build/alphabot_bringup/CMakeFiles/test.dir
+/home/kiriks/code/alphabot/build/alphabot_bringup/CMakeFiles/edit_cache.dir
+/home/kiriks/code/alphabot/build/alphabot_bringup/CMakeFiles/rebuild_cache.dir
+/home/kiriks/code/alphabot/build/alphabot_bringup/CMakeFiles/list_install_components.dir
+/home/kiriks/code/alphabot/build/alphabot_bringup/CMakeFiles/install.dir
+/home/kiriks/code/alphabot/build/alphabot_bringup/CMakeFiles/install/local.dir
+/home/kiriks/code/alphabot/build/alphabot_bringup/CMakeFiles/install/strip.dir

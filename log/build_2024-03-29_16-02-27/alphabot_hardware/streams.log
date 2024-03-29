@@ -1,0 +1,39 @@
+[0.014s] Invoking command in '/home/kiriks/code/alphabot/build/alphabot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/kiriks/code/alphabot/alphabot_hardware -DCMAKE_INSTALL_PREFIX=/home/kiriks/code/alphabot/install/alphabot_hardware
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.110s] -- Detecting C compiler ABI info
+[0.162s] -- Detecting C compiler ABI info - done
+[0.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.250s] -- Detecting CXX compile features - done
+[0.252s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.384s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.520s] -- Configuring done
+[0.520s] -- Generating done
+[0.521s] -- Build files have been written to: /home/kiriks/code/alphabot/build/alphabot_hardware
+[0.527s] Invoked command in '/home/kiriks/code/alphabot/build/alphabot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/kiriks/code/alphabot/alphabot_hardware -DCMAKE_INSTALL_PREFIX=/home/kiriks/code/alphabot/install/alphabot_hardware
+[0.528s] Invoking command in '/home/kiriks/code/alphabot/build/alphabot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/kiriks/code/alphabot/build/alphabot_hardware -- -j8 -l8
+[0.558s] Invoked command in '/home/kiriks/code/alphabot/build/alphabot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/kiriks/code/alphabot/build/alphabot_hardware -- -j8 -l8
+[0.577s] Invoking command in '/home/kiriks/code/alphabot/build/alphabot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/kiriks/code/alphabot/build/alphabot_hardware
+[0.583s] -- Install configuration: ""
+[0.584s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/ament_index/resource_index/package_run_dependencies/alphabot_hardware
+[0.584s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/ament_index/resource_index/parent_prefix_path/alphabot_hardware
+[0.585s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/environment/ament_prefix_path.sh
+[0.585s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/environment/ament_prefix_path.dsv
+[0.585s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/environment/path.sh
+[0.585s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/environment/path.dsv
+[0.585s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/local_setup.bash
+[0.585s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/local_setup.sh
+[0.586s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/local_setup.zsh
+[0.586s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/local_setup.dsv
+[0.586s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.dsv
+[0.586s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/ament_index/resource_index/packages/alphabot_hardware
+[0.586s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/cmake/alphabot_hardwareConfig.cmake
+[0.586s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/cmake/alphabot_hardwareConfig-version.cmake
+[0.586s] -- Installing: /home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.xml
+[0.599s] Invoked command in '/home/kiriks/code/alphabot/build/alphabot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/kiriks/code/alphabot/build/alphabot_hardware

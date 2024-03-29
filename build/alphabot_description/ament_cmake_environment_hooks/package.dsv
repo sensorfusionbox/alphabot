@@ -1,0 +1,4 @@
+source;share/alphabot_description/local_setup.bash
+source;share/alphabot_description/local_setup.dsv
+source;share/alphabot_description/local_setup.sh
+source;share/alphabot_description/local_setup.zsh

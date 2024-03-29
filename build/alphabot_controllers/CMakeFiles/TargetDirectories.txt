@@ -1,0 +1,9 @@
+/home/kiriks/code/alphabot/build/alphabot_controllers/CMakeFiles/uninstall.dir
+/home/kiriks/code/alphabot/build/alphabot_controllers/CMakeFiles/alphabot_controllers_uninstall.dir
+/home/kiriks/code/alphabot/build/alphabot_controllers/CMakeFiles/test.dir
+/home/kiriks/code/alphabot/build/alphabot_controllers/CMakeFiles/edit_cache.dir
+/home/kiriks/code/alphabot/build/alphabot_controllers/CMakeFiles/rebuild_cache.dir
+/home/kiriks/code/alphabot/build/alphabot_controllers/CMakeFiles/list_install_components.dir
+/home/kiriks/code/alphabot/build/alphabot_controllers/CMakeFiles/install.dir
+/home/kiriks/code/alphabot/build/alphabot_controllers/CMakeFiles/install/local.dir
+/home/kiriks/code/alphabot/build/alphabot_controllers/CMakeFiles/install/strip.dir

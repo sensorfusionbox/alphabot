@@ -1,0 +1,15 @@
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/ament_index/resource_index/package_run_dependencies/alphabot_hardware
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/ament_index/resource_index/parent_prefix_path/alphabot_hardware
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/environment/ament_prefix_path.sh
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/environment/ament_prefix_path.dsv
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/environment/path.sh
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/environment/path.dsv
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/local_setup.bash
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/local_setup.sh
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/local_setup.zsh
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/local_setup.dsv
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.dsv
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/ament_index/resource_index/packages/alphabot_hardware
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/cmake/alphabot_hardwareConfig.cmake
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/cmake/alphabot_hardwareConfig-version.cmake
+/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.xml

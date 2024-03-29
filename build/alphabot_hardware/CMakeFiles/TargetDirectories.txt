@@ -1,0 +1,9 @@
+/home/kiriks/code/alphabot/build/alphabot_hardware/CMakeFiles/uninstall.dir
+/home/kiriks/code/alphabot/build/alphabot_hardware/CMakeFiles/alphabot_hardware_uninstall.dir
+/home/kiriks/code/alphabot/build/alphabot_hardware/CMakeFiles/test.dir
+/home/kiriks/code/alphabot/build/alphabot_hardware/CMakeFiles/edit_cache.dir
+/home/kiriks/code/alphabot/build/alphabot_hardware/CMakeFiles/rebuild_cache.dir
+/home/kiriks/code/alphabot/build/alphabot_hardware/CMakeFiles/list_install_components.dir
+/home/kiriks/code/alphabot/build/alphabot_hardware/CMakeFiles/install.dir
+/home/kiriks/code/alphabot/build/alphabot_hardware/CMakeFiles/install/local.dir
+/home/kiriks/code/alphabot/build/alphabot_hardware/CMakeFiles/install/strip.dir

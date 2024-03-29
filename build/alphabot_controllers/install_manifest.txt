@@ -1,0 +1,15 @@
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/ament_index/resource_index/package_run_dependencies/alphabot_controllers
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/ament_index/resource_index/parent_prefix_path/alphabot_controllers
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/environment/ament_prefix_path.sh
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/environment/ament_prefix_path.dsv
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/environment/path.sh
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/environment/path.dsv
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/local_setup.bash
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/local_setup.sh
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/local_setup.zsh
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/local_setup.dsv
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.dsv
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/ament_index/resource_index/packages/alphabot_controllers
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/cmake/alphabot_controllersConfig.cmake
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/cmake/alphabot_controllersConfig-version.cmake
+/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.xml

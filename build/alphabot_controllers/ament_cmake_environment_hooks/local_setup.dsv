@@ -1,0 +1,2 @@
+source;share/alphabot_controllers/environment/ament_prefix_path.sh
+source;share/alphabot_controllers/environment/path.sh

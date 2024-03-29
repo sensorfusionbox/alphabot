@@ -1,0 +1,15 @@
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/ament_index/resource_index/package_run_dependencies/alphabot_bringup
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/ament_index/resource_index/parent_prefix_path/alphabot_bringup
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/environment/ament_prefix_path.sh
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/environment/ament_prefix_path.dsv
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/environment/path.sh
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/environment/path.dsv
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/local_setup.bash
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/local_setup.sh
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/local_setup.zsh
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/local_setup.dsv
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.dsv
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/ament_index/resource_index/packages/alphabot_bringup
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/cmake/alphabot_bringupConfig.cmake
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/cmake/alphabot_bringupConfig-version.cmake
+/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.xml

@@ -1,0 +1,335 @@
+[0.088s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.089s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d5e9d8a19f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d5e9d8a13f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d5e9d8a13f0>>)
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.234s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kiriks/code/alphabot'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_bringup) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_bringup) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_bringup) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_bringup) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_bringup) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_bringup) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_bringup) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_bringup) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'alphabot_bringup' with type 'ros.ament_cmake' and name 'alphabot_bringup'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_controllers) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_controllers) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_controllers) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_controllers) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_controllers) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_controllers) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_controllers) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_controllers) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'alphabot_controllers' with type 'ros.ament_cmake' and name 'alphabot_controllers'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_description) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_description) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_description) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_description) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_description) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_description) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_description) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_description) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'alphabot_description' with type 'ros.ament_cmake' and name 'alphabot_description'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_hardware) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_hardware) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_hardware) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_hardware) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_hardware) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_hardware) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_hardware) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(alphabot_hardware) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'alphabot_hardware' with type 'ros.ament_cmake' and name 'alphabot_hardware'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.267s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/kiriks/code/alphabot/install
+[0.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'alphabot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'alphabot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'alphabot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kiriks/code/alphabot/build/alphabot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kiriks/code/alphabot/install/alphabot_bringup', 'merge_install': False, 'path': '/home/kiriks/code/alphabot/alphabot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_controllers' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_controllers' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'alphabot_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kiriks/code/alphabot/build/alphabot_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kiriks/code/alphabot/install/alphabot_controllers', 'merge_install': False, 'path': '/home/kiriks/code/alphabot/alphabot_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_description' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'alphabot_description' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'alphabot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kiriks/code/alphabot/build/alphabot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kiriks/code/alphabot/install/alphabot_description', 'merge_install': False, 'path': '/home/kiriks/code/alphabot/alphabot_description', 'symlink_install': False, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_hardware' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_hardware' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'alphabot_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'alphabot_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kiriks/code/alphabot/build/alphabot_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kiriks/code/alphabot/install/alphabot_hardware', 'merge_install': False, 'path': '/home/kiriks/code/alphabot/alphabot_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.310s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kiriks/code/alphabot/alphabot_bringup' with build type 'ament_cmake'
+[0.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kiriks/code/alphabot/alphabot_bringup'
+[0.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kiriks/code/alphabot/alphabot_controllers' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kiriks/code/alphabot/alphabot_controllers'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kiriks/code/alphabot/alphabot_description' with build type 'ament_cmake'
+[0.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kiriks/code/alphabot/alphabot_description'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kiriks/code/alphabot/alphabot_hardware' with build type 'ament_cmake'
+[0.322s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kiriks/code/alphabot/alphabot_hardware'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/kiriks/code/alphabot/alphabot_bringup -DCMAKE_INSTALL_PREFIX=/home/kiriks/code/alphabot/install/alphabot_bringup
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/kiriks/code/alphabot/alphabot_controllers -DCMAKE_INSTALL_PREFIX=/home/kiriks/code/alphabot/install/alphabot_controllers
+[0.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/kiriks/code/alphabot/alphabot_description -DCMAKE_INSTALL_PREFIX=/home/kiriks/code/alphabot/install/alphabot_description
+[0.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/kiriks/code/alphabot/alphabot_hardware -DCMAKE_INSTALL_PREFIX=/home/kiriks/code/alphabot/install/alphabot_hardware
+[0.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/kiriks/code/alphabot/alphabot_description -DCMAKE_INSTALL_PREFIX=/home/kiriks/code/alphabot/install/alphabot_description
+[0.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/kiriks/code/alphabot/build/alphabot_description -- -j8 -l8
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/kiriks/code/alphabot/alphabot_bringup -DCMAKE_INSTALL_PREFIX=/home/kiriks/code/alphabot/install/alphabot_bringup
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/kiriks/code/alphabot/build/alphabot_bringup -- -j8 -l8
+[0.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/kiriks/code/alphabot/alphabot_hardware -DCMAKE_INSTALL_PREFIX=/home/kiriks/code/alphabot/install/alphabot_hardware
+[0.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/kiriks/code/alphabot/build/alphabot_hardware -- -j8 -l8
+[0.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/kiriks/code/alphabot/alphabot_controllers -DCMAKE_INSTALL_PREFIX=/home/kiriks/code/alphabot/install/alphabot_controllers
+[0.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/kiriks/code/alphabot/build/alphabot_controllers -- -j8 -l8
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/kiriks/code/alphabot/build/alphabot_description -- -j8 -l8
+[0.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/kiriks/code/alphabot/build/alphabot_hardware -- -j8 -l8
+[0.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/kiriks/code/alphabot/build/alphabot_bringup -- -j8 -l8
+[0.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/kiriks/code/alphabot/build/alphabot_controllers -- -j8 -l8
+[0.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/kiriks/code/alphabot/build/alphabot_description
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/kiriks/code/alphabot/build/alphabot_hardware
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/kiriks/code/alphabot/build/alphabot_bringup
+[0.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kiriks/code/alphabot/build/alphabot_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/kiriks/code/alphabot/build/alphabot_controllers
+[0.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alphabot_description)
+[0.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/kiriks/code/alphabot/build/alphabot_description
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description' for CMake module files
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description' for CMake config files
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('alphabot_description', 'cmake_prefix_path')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/hook/cmake_prefix_path.ps1'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/hook/cmake_prefix_path.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/hook/cmake_prefix_path.sh'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description/bin'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description/lib/pkgconfig/alphabot_description.pc'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description/lib/python3.10/site-packages'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description/bin'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.ps1'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.dsv'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.sh'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.bash'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.zsh'
+[0.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kiriks/code/alphabot/install/alphabot_description/share/colcon-core/packages/alphabot_description)
+[0.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alphabot_hardware)
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware' for CMake module files
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/kiriks/code/alphabot/build/alphabot_hardware
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware' for CMake config files
+[0.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('alphabot_hardware', 'cmake_prefix_path')
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/hook/cmake_prefix_path.ps1'
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/hook/cmake_prefix_path.dsv'
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/hook/cmake_prefix_path.sh'
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware/bin'
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware/lib/pkgconfig/alphabot_hardware.pc'
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware/lib/python3.10/site-packages'
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware/bin'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.ps1'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.sh'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.bash'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.zsh'
+[0.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kiriks/code/alphabot/install/alphabot_hardware/share/colcon-core/packages/alphabot_hardware)
+[0.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alphabot_bringup)
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup' for CMake module files
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/kiriks/code/alphabot/build/alphabot_bringup
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup' for CMake config files
+[0.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('alphabot_bringup', 'cmake_prefix_path')
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/hook/cmake_prefix_path.ps1'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/hook/cmake_prefix_path.dsv'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/hook/cmake_prefix_path.sh'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup/bin'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup/lib/pkgconfig/alphabot_bringup.pc'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup/lib/python3.10/site-packages'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup/bin'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.sh'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.bash'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.zsh'
+[0.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kiriks/code/alphabot/install/alphabot_bringup/share/colcon-core/packages/alphabot_bringup)
+[0.931s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alphabot_controllers)
+[0.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kiriks/code/alphabot/build/alphabot_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e[0;37m\][\t]\[\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_vc_branch_and_add_brackets)>\[\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/kiriks/code/alphabot/build/alphabot_controllers
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers' for CMake module files
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers' for CMake config files
+[0.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('alphabot_controllers', 'cmake_prefix_path')
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/hook/cmake_prefix_path.ps1'
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/hook/cmake_prefix_path.dsv'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/hook/cmake_prefix_path.sh'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers/bin'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers/lib/pkgconfig/alphabot_controllers.pc'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers/lib/python3.10/site-packages'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers/bin'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.ps1'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.dsv'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.sh'
+[0.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.bash'
+[0.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.zsh'
+[0.939s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kiriks/code/alphabot/install/alphabot_controllers/share/colcon-core/packages/alphabot_controllers)
+[0.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alphabot_description)
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description' for CMake module files
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description' for CMake config files
+[0.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('alphabot_description', 'cmake_prefix_path')
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/hook/cmake_prefix_path.ps1'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/hook/cmake_prefix_path.dsv'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/hook/cmake_prefix_path.sh'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description/bin'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description/lib/pkgconfig/alphabot_description.pc'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description/lib/python3.10/site-packages'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_description/bin'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.ps1'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.dsv'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.sh'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.bash'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.zsh'
+[0.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kiriks/code/alphabot/install/alphabot_description/share/colcon-core/packages/alphabot_description)
+[0.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alphabot_hardware)
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware' for CMake module files
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware' for CMake config files
+[0.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('alphabot_hardware', 'cmake_prefix_path')
+[0.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/hook/cmake_prefix_path.ps1'
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/hook/cmake_prefix_path.dsv'
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/hook/cmake_prefix_path.sh'
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware/bin'
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware/lib/pkgconfig/alphabot_hardware.pc'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware/lib/python3.10/site-packages'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_hardware/bin'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.ps1'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.dsv'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.sh'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.bash'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_hardware/share/alphabot_hardware/package.zsh'
+[0.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kiriks/code/alphabot/install/alphabot_hardware/share/colcon-core/packages/alphabot_hardware)
+[0.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alphabot_bringup)
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup' for CMake module files
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup' for CMake config files
+[0.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('alphabot_bringup', 'cmake_prefix_path')
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/hook/cmake_prefix_path.ps1'
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/hook/cmake_prefix_path.dsv'
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/hook/cmake_prefix_path.sh'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup/bin'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup/lib/pkgconfig/alphabot_bringup.pc'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup/lib/python3.10/site-packages'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_bringup/bin'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.ps1'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.dsv'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.sh'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.bash'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_bringup/share/alphabot_bringup/package.zsh'
+[0.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kiriks/code/alphabot/install/alphabot_bringup/share/colcon-core/packages/alphabot_bringup)
+[0.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alphabot_controllers)
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers' for CMake module files
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers' for CMake config files
+[0.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('alphabot_controllers', 'cmake_prefix_path')
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/hook/cmake_prefix_path.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/hook/cmake_prefix_path.dsv'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/hook/cmake_prefix_path.sh'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers/bin'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers/lib/pkgconfig/alphabot_controllers.pc'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers/lib/python3.10/site-packages'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/kiriks/code/alphabot/install/alphabot_controllers/bin'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.ps1'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.dsv'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.sh'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.bash'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/kiriks/code/alphabot/install/alphabot_controllers/share/alphabot_controllers/package.zsh'
+[0.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kiriks/code/alphabot/install/alphabot_controllers/share/colcon-core/packages/alphabot_controllers)
+[0.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.962s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.967s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.967s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.967s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.967s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.969s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.969s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kiriks/code/alphabot/install/local_setup.ps1'
+[0.970s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kiriks/code/alphabot/install/_local_setup_util_ps1.py'
+[0.972s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kiriks/code/alphabot/install/setup.ps1'
+[0.972s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kiriks/code/alphabot/install/local_setup.sh'
+[0.973s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kiriks/code/alphabot/install/_local_setup_util_sh.py'
+[0.973s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kiriks/code/alphabot/install/setup.sh'
+[0.974s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kiriks/code/alphabot/install/local_setup.bash'
+[0.974s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kiriks/code/alphabot/install/setup.bash'
+[0.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kiriks/code/alphabot/install/local_setup.zsh'
+[0.975s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kiriks/code/alphabot/install/setup.zsh'

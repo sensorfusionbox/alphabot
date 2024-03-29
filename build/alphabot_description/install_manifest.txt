@@ -1,0 +1,15 @@
+/home/kiriks/code/alphabot/install/alphabot_description/share/ament_index/resource_index/package_run_dependencies/alphabot_description
+/home/kiriks/code/alphabot/install/alphabot_description/share/ament_index/resource_index/parent_prefix_path/alphabot_description
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/environment/ament_prefix_path.sh
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/environment/ament_prefix_path.dsv
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/environment/path.sh
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/environment/path.dsv
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/local_setup.bash
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/local_setup.sh
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/local_setup.zsh
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/local_setup.dsv
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.dsv
+/home/kiriks/code/alphabot/install/alphabot_description/share/ament_index/resource_index/packages/alphabot_description
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/cmake/alphabot_descriptionConfig.cmake
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/cmake/alphabot_descriptionConfig-version.cmake
+/home/kiriks/code/alphabot/install/alphabot_description/share/alphabot_description/package.xml
